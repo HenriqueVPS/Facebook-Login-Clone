@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class='center'>
+            <div class='logo'>
+                <h2>Facebook</h2>
+            </div>
+            <form method="post" class='form-login'>
+                <div class='form-element'>
+                    <p>E-mail ou telefone:</p>
+                    <input type="email" name='email'>
+                </div><!--form-element-->
+                <div class='form-element'> 
+                    <p>Senha:</p>
+                    <input type="password">
+                </div><!--form-element-->
+                <div class='form-element'>
+                    <input type="submit" value="Enviar" name='acao'>
+                </div><!--form-element-->
+            </form><!--form-->
+            <div class='clear'></div>
+        </div><!--center-->
+    </header>
+
+    <section class='main'>
+        <div class='center'>
+            <div class='img-pessoas'>
+                <img src="images/pessoas.png" alt="">
+            </div><!--img-pessoas-->
+            <div class='abrir-conta'>
+                <h2>Abra sua conta</h2>
+                <h3>É gratuito e sempre será!</h3>
+            
+                <form class='criar-conta'>
+                    <div class='w50'>
+                        <input type="text" placeholder="Nome">
+                    </div><!--w50-->
+                    <div class='w50'>
+                        <input type="text" placeholder="Sobrenome">
+                    </div><!--w50-->
+                    <div class='w100'>
+                        <input type="email" placeholder="E-mail">
+                    </div><!--w100-->
+                    <div class='w100'>
+                        <input type="password" placeholder="Senha">
+                    </div><!--w100-->
+                    
+                    <div class='w100'>
+                        <h2>Data de Nascimento:</h2>
+                        <select class='nascimento-dia' name="nascimento" id="">
+                            <option value="1">1</option>
+                        </select>
+
+                        <select class='nascimento-mes' name="nascimento" id="">
+                            <option value="0">Junho</option>
+                        </select>
+                        
+                        <select  class='nascimento-ano' name="nascimento" id="">
+                            <option value="0">1990</option>
+                        </select>
+                    </div>
+
+                    <div class='w100'>
+                        <input type="submit" name='acao' value="Cadastre-se">
+                    </div>
+
+                    <div class='clear'></div>
+                </form><!--criar-conta-->
+
+            </div><!--abrir-conta-->
+
+         
+        </div>
+    </section>
+</body>
+</html>
